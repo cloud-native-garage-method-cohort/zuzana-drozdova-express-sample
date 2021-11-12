@@ -1,5 +1,5 @@
 # Use node Docker image, version 16-alpine
-FROM quay.io/ibmgaragecloud/node
+FROM quay.io/ibmgaragecloud/node:lts-stretch
 
 # From the documentation, "The WORKDIR instruction sets the working directory for any
 # RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile"
